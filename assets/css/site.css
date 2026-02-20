@@ -349,6 +349,18 @@ h3 {
   background: #fffdf8;
 }
 
+.research-cards h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.research-cards h3 a:hover,
+.research-cards h3 a:focus-visible {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
