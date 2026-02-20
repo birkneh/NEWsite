@@ -537,8 +537,19 @@ h3 {
   color: var(--ink-muted);
 }
 
-#africa-life-map {
+.map-layout {
   margin-top: 0.55rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr);
+  gap: 0.85rem;
+  align-items: stretch;
+}
+
+.map-canvas {
+  min-width: 0;
+}
+
+#africa-life-map {
   width: 100%;
   min-height: 440px;
 }
@@ -547,6 +558,24 @@ h3 {
   margin-top: 0.5rem;
   font-weight: 700;
   color: var(--accent-deep);
+}
+
+.map-blurb {
+  border: 1px solid #d2c7b6;
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: linear-gradient(180deg, #fffdfa 0%, #f2ebdd 100%);
+}
+
+.map-blurb h4 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
+}
+
+.map-blurb p {
+  margin: 0.55rem 0 0;
+  color: #4f5f63;
 }
 
 .map-source a {
@@ -778,5 +807,9 @@ h3 {
 
   #africa-life-map {
     min-height: 340px;
+  }
+
+  .map-layout {
+    grid-template-columns: 1fr;
   }
 }
