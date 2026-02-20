@@ -1,8 +1,8 @@
 title: "Birkneh T. Tadesse, MD, PhD"
 description: "Global health epidemiologist and vaccine research leader"
 email: "birknehtilahun@gmail.com"
-baseurl: ""
-url: ""
+baseurl: "/NEWsite"
+url: "https://birkneh.github.io"
 timezone: "Asia/Seoul"
 markdown: kramdown
 permalink: /writing/:title/

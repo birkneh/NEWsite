@@ -22,6 +22,13 @@ This repository is configured as a **Jekyll** site for GitHub Pages.
 6. GitHub will publish the site at:
    - `https://<your-username>.github.io/<repo-name>/`
 
+## Important for project pages
+This repository is currently configured for:
+- `url: https://birkneh.github.io`
+- `baseurl: /NEWsite`
+
+If you change the repository name, update `baseurl` in `/Users/Administrator/Documents/New project/_config.yml` to match exactly.
+
 ## Add a new blog post
 1. Create a new file in `_posts/` using this format:
    - `YYYY-MM-DD-your-title.md`
