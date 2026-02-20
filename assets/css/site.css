@@ -301,6 +301,18 @@ h3 {
   background: linear-gradient(180deg, #fffefb 0%, #f6f0e5 100%);
 }
 
+.pillars h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.pillars h3 a:hover,
+.pillars h3 a:focus-visible {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .pillars p,
 .timeline p,
 .post-card p,
