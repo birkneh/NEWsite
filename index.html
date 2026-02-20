@@ -181,6 +181,24 @@
           <a class="read-more" href="writing/why-vaccine-equity-needs-better-data.html">Read article</a>
         </article>
       </div>
+
+      <div class="map-module">
+        <h3>Interactive Map: Life Expectancy in African Countries</h3>
+        <p class="map-note">
+          Hover to see life expectancy and click a country to keep its value below.
+        </p>
+        <div id="africa-life-map" role="img" aria-label="Interactive map of life expectancy across African countries"></div>
+        <p id="africa-life-selected" class="map-selected">
+          Hover or click a country on the map.
+        </p>
+        <p class="map-source">
+          Source:
+          <a href="https://www.worldometers.info/demographics/life-expectancy/" target="_blank" rel="noopener">
+            Worldometer life expectancy table
+          </a>
+          (values used on February 21, 2026).
+        </p>
+      </div>
     </section>
 
     <section class="block">
@@ -214,5 +232,7 @@
       <p><a href="Tadesse_CV_4FEB26.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></p>
     </div>
   </footer>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="assets/js/africa-life-map.js"></script>
 </body>
 </html>

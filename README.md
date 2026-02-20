@@ -5,6 +5,7 @@ This is now a **fully static GitHub Pages site** (no Jekyll build required).
 ## Structure
 - `index.html`: Home/profile page
 - `assets/css/site.css`: Main styling
+- `assets/js/africa-life-map.js`: Interactive Africa life-expectancy map script
 - `assets/images/profile.jpg`: Profile image
 - `writing/index.html`: Blog listing page
 - `writing/*.html`: Individual blog posts
@@ -38,3 +39,9 @@ Live URL:
 2. Update entries in `publications/index.html`.
 3. Update the short \"Recent Publications\" list in `index.html`.
 4. Commit and push.
+
+## Update Africa life-expectancy map data
+1. Open:
+   - `https://www.worldometers.info/demographics/life-expectancy/`
+2. Update country values inside `assets/js/africa-life-map.js`.
+3. Commit and push.
