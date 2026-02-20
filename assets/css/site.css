@@ -478,6 +478,12 @@ h3 {
   color: var(--ink-muted);
 }
 
+.post-byline {
+  margin: 0.2rem 0 0;
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
 .post-content {
   font-size: 1.12rem;
 }
