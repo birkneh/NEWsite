@@ -166,25 +166,22 @@ h3 {
   font-size: 1.12rem;
 }
 
-.collaborate-callout {
+.collaborate-inline {
   margin-top: 1rem;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 0.85rem;
-  background: linear-gradient(180deg, #fffefb 0%, #f4eee2 100%);
 }
 
-.collaborate-callout h3 {
+.collaborate-inline h3 {
   margin: 0;
   font-size: 1.35rem;
 }
 
-.collaborate-callout p {
+.collaborate-inline p {
   margin: 0.45rem 0 0;
   color: var(--ink-muted);
+  max-width: 64ch;
 }
 
-.collaborate-callout .button {
+.collaborate-inline .button {
   margin-top: 0.65rem;
 }
 
